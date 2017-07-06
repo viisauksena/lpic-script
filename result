@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# todo make many results and stats out of highscore
+touch highscore
+cat highscore |cut -d " " -f 4- |grep -Eo [a-z0-9]+ | sort | uniq -c
+
+echo ""
+echo "if empty , you may probably have never made an error"
+echo ""
