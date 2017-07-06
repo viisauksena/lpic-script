@@ -1,0 +1,3 @@
+#dmesg
+Geben sie das Programm an, mit dem Sie das Kernellog des Bootvorgangs im Nachhinein anzeigen können.
+(Geben sie das Programm ohne Pfad und Optionen an)

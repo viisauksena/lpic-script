@@ -1,0 +1,7 @@
+#001000
+Sie haben ein Programm mit STRG-Z unterbrochen, wie können Sie das aktuelle Programm in den Hintergrund schicken und weiterlaufen lassen.
+
+1. sie starten das Programm neu mit & , die jetzigen Einstellungen werden dabei automatisch übernommen
+2. sie benutzen das programm jobs <id>
+3. sie benutzen das programm bg <id>
+4. sie benutzen das programm fg <id>
