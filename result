@@ -4,7 +4,7 @@
 touch highscore
 
 folder=$1
-[ x"$1" = "x" ] && folder=101
+[ x"$1" = "x" ] && folder=$(tail highscore -n1 |cut -d " " -f2)
 
 echo ""
 cat highscore |grep $folder|cut -d " " -f 5- |grep -Eo [a-z0-9]+ | sort | uniq -c
