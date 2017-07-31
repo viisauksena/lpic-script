@@ -1,0 +1,11 @@
+#010000
+
+Journalling doesn't appear to be working on an ext3 file-system. When booting, the following line appears:
+VFS: Mounted root (ext2 filesystem) readonly.
+
+What could be causing the problem?
+1. An old version of e2fsprogs is installed.
+2. The kernel does not contain ext3 support.
+3. The file-system is specified as ext2 in/etc/fstab.
+4. The system was not shut down cleanly.
+

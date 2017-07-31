@@ -1,8 +1,0 @@
-#010010
-Was macht folgender Befehl      chmod u=rwx,og=rw file    mit den rechten  von file ?
-1. chmod ist das Falsche Programm um Rechte zu ändern
-2. Der Nutzer kann lesen,ausfühen und schreiben - gruppen und andere nur lesen und schreiben
-3. der Befehl ist mit dem Komma syntaktisch falsch
-4. Der Befehl entspricht einem chmod 722
-5. Der Befehl entspricht einem chmod 755 file
-6. Die Datei bekommt mit Standartrechten den aktuellen Nutzer als neuen Besitzer

@@ -1,0 +1,19 @@
+#100010
+
+Select the TWO correct statements about the following excerpt from httpd.conf:
+
+<Directory /var/www/dir1>
+<Files private.html>Order allow, deny
+Deny from all
+</Files>
+Real 2
+LPI 117-202 Exam
+</Directory>
+
+1. The configuration will deny access to /var/www/dir1/private.html, /var/www/dirl/subdir2/private.html, /var/www/dirl/subdir3/private.html and any other instance of
+private.html found under the /var/www/dir1/directory.
+2. The configuration will deny access to /var/www/dir1/private.html, but it will allow access to /var/www/dirl/subdir2/private.htm1, for example.
+3. The configuration will allow access to any file named private.html under /var/www/dir1, but it will deny access to any other files
+4. The configuration will allow access just to the file named private.html under /var/www/dir1
+5. The configuration will allow access to /var/www/private.html, if it exists
+

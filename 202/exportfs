@@ -1,0 +1,10 @@
+#000100
+
+Which command can be used to list all exported file systems from a remote NFS server:
+
+1. exportfs
+2. nfsstat
+3. rpcinfo
+4. showmount
+5. importfs
+

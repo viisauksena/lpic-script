@@ -1,0 +1,10 @@
+#000100
+
+You have to mount the /data filesystem from an NFS server(srvl) that does not support locking. Which of the following mount commands should you use?
+
+1. mount -a -t nfs
+2. mount -o locking=off srvl:/data /mnt/data
+3. mount -o nolocking srvl:/data /mnt/data
+4. mount -o nolock srvl:/data /mnt/data
+5. mount -o nolock /data@srvl /mn/data
+

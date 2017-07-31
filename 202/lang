@@ -1,0 +1,10 @@
+#100000
+
+Messages from programs are not appearing in the user's native language. What environment variable must be set for this to happen?
+
+1. LANG
+2. I18N
+3. MESSAGES
+4. MSGS
+5. LC_MSGS
+

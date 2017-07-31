@@ -1,0 +1,9 @@
+#110000
+
+Which TWO of the following options are valid, in the /etc/exports file?
+1. rw
+2. ro
+3. rootsquash
+4. norootsquash
+5. uid
+

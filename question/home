@@ -1,9 +1,0 @@
-#001110
-Wie kommen sie in der Shell zurück zu ihrem Home Verzeichnis
-
-1. cd ..
-2. cd .
-3. cd ~
-4. cd $HOME
-5. cd
-6. $HOME

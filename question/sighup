@@ -1,6 +1,0 @@
-#SIGHUP
-Ein Programm mit der PID 1234 soll ohne beendet zu werden seine Config Dateien neu einlesen? 
-Was geben sie hier ein ? 
-
-sig -s _____ 1234
-

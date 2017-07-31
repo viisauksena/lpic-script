@@ -1,0 +1,10 @@
+#010000
+
+During which stage of the boot process would this message be seen?
+ide_setup:hdc=ide-scsi
+
+1. Boot loader start and hand off to kernel
+2. Kernel loading
+3. Hardware initialization and setup
+4. Daemon initialization and setup
+

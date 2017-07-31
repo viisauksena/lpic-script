@@ -1,8 +1,0 @@
-#001000
-Geben sie das Programm an, mit dem Sie das Kernellog des Bootvorgangs im Nachhinein anzeigen können.
-
-1. showlog
-2. cat /proc/kernel
-3. dmesg
-4. logger
-5. tail -f /var/log/messages

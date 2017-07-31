@@ -1,0 +1,9 @@
+#010000
+What is the name of the dovecot configuration variable that specifies the location of user mail?
+
+1. mbox
+2. mail_location
+3. user_dir
+4. maildir
+5. user_mail_dir
+

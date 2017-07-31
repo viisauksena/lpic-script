@@ -1,0 +1,10 @@
+#001000
+
+When bash is invoked as an interactive login shell, which of the following sentences is true?
+
+1. It first reads and executes commands in /etc/profile and then does same for ~/.bash_profile and ~/.bashrc
+2. It first reads and executes commands in /etc/bashrc and then does same for /etc/profile
+3. It reads and executes commands in ~/.bashrc only if /etc/profile or another initialization script calls it.
+4. It ignores /etc/profile and only reads and executes commands in ~/.bashrc
+5. It first reads and executes commands in /etc/profile and then does same for ~/.bash_profile, ~/.bash_login and ~/.profile
+

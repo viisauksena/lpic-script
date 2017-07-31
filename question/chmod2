@@ -1,8 +1,0 @@
-#000100
-Was macht folgender Befehl      chmod a+x file    mit den rechten  von file ?
-1. Der Nutzer kann lesen,ausfühen und schreiben - gruppen und andere nur lesen und schreiben
-2. der Befehl setzt das suid bit
-3. Der Befehl erlaub allen das Ausführen der Datei.
-4. chmod ist das Falsche Programm um Rechte zu ändern
-5. Der Befehl entspricht einem chmod 755 file
-6. Die Datei bekommt mit Standartrechten den aktuellen Nutzer als neuen Besitzer

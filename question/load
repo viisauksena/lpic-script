@@ -1,8 +1,0 @@
-#110000
-Sie müssen den Systemload auf einem schwerfällig reagierenden Rechner kontrollieren, welche Befehle sind geeignet? 
-
-1. uptime
-2. top
-3. show load
-4. cat /etc/sysload
-5. cat /proc/sys/kernel/load

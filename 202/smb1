@@ -1,0 +1,10 @@
+#011000
+The new file server is a member of the Windows domain "foo". Which TWO of the following
+configuration sections will allow members of the domain group "all" to read, write and execute files in "/srv/smb/data"?
+
+1. [data] comment = data share path = /srv/smb/data write list = @foo+all force group = @foo+all create mask = 0550 directory mask = 0770
+2. [data] comment = data share path = /srv/smb/data write list = @foo+all force group = @foo+all create mask = 0770 directory mask = 0770
+3. [data] path = /srv/smb/data write list = @foo+all force group = @foo+all create mask = 0770 directory mask = 0770
+4. [data] comment = data share path = /srv/smb/data write list = @foo+all force group = @foo+all directory mask = 0770
+5. [data] comment = data share path = /srv/smb/data write list = @foo+all force group = all create mask = 0550 directory mask = 0770
+

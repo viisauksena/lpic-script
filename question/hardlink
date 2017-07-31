@@ -1,8 +1,0 @@
-#100000
-Sie erstellen einen hardlink auf eine bestehende Datei, nun löschen Sie ihre Ursprungsdatei, welche der Aussagen trifft zu?
-
-1. Die Ursprungsdatei ist gelöscht, der angelegte Hardlink entspricht aber der Ursprungsdatei
-2. Beide Dateien sind gelöscht
-3. die verlinkte Datei ist ungültig
-4. Die verlinkte Datei existiert, sie bekommen allerdings eine Warnung
-5. Sie können die Ursprungsdatei nicht löschen, solang diese verlinkt ist 

@@ -1,8 +1,0 @@
-#001000
-Sie müssen herausfinden zu welchem rpm Paket eine bestimmte Datei (/etc/passwd) gehört, welcher Befehl ist am besten geeignet
-
-1. apt-get showfile passwd
-2. rpm -V /etc/passwd
-3. rpm -qf /etc/passwd
-4. rpm -i /etc/passwd
-

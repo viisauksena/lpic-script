@@ -1,0 +1,4 @@
+#exportfs -a
+
+wie kann man nfs Filesysteme die in /etc/exports eingetragen sind automatisiert freigeben (Befehl ohne Pfad , mit option)
+

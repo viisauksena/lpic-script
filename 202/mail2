@@ -1,0 +1,10 @@
+#000010
+
+You suspect that you are receiving messages with a forged From: address. What could help you find out where the mail is originating?
+
+1. Install TCP wrappers, and log all connections on port 25
+2. A dd the command 'FR-strlog' to the sendmail.cf file
+3. Add the command 'define ('LOG_REAL_FROM') dnl' to the sendmail.mc file
+4. Run a filter in the aliases file that checks the originating address when mail arrives
+5. Look in the ReceiveD.and Message-ID.parts of the mail header
+
