@@ -1,0 +1,15 @@
+#100001
+
+ein DNS Eintrag hat folgende Einträge zu den Emailservern, welche beiden Aussagen treffen zu? (wähle 2)
+
+mail1 MX 10 10.10.10.1 
+mail2 MX 20 10.10.100.2
+
+
+1. der Mailserver mail2 wird nur benutzt wenn der mail1 nicht erreichbar ist.
+2. diese Config führt zu fehlern, da mail1 und mail2 nicht im gleichen /24 sind
+3. mail2 wird doppelt so oft benutzt wie mail1
+4. mail1 wird doppelt so oft benutzt wie mail2
+5. die Zahlen hinter dem MX sind in einer DNS Angabe syntaktisch falsch
+6. mail1 hat die höhere Priorität.
+

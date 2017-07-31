@@ -1,0 +1,4 @@
+#/var/cache/bind
+
+in welchem Ordner sucht eine über den Debian Paketmanagaer installiertes Bind nach den Zonefiles?
+

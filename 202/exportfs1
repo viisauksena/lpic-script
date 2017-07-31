@@ -1,0 +1,10 @@
+#011000
+
+After changing /etc/exports on a server, remote hosts are still unable to mount the exported directories. What should be the next action? Please select TWO
+correct answers.
+
+1. Restart the NFS daemon
+2. Run exportfs -a on the server
+3. Run exportfs -f on the server
+4. Run showmount -a on the server
+5. Restart the remote hosts
