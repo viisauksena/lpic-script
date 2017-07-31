@@ -3,8 +3,7 @@
 # user folder
 # will be some kind of automation soon, like $0 or so
 folder=$0
-[ "$folder" = "./start" ] && folder=101 
-[ "$folder" != "101" ] && folder=${folder#./start-}
+[ "$folder" = "./start" ] && folder=101
 
 function choosed {
 	echo -en "\\r"

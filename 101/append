@@ -1,0 +1,9 @@
+#000010
+Sie benutzen folgenden Befehl auf ihre beiden Listen foo und bar
+cat foo bar > neue_liste
+
+1. Die Datei neue_liste enthält nur die liste bar, foo wird überschrieben
+2. cat erlaubt nur 1 Argument, es führt zu einem fehler
+3. cat ignoriert das 2. Argument
+4. die Liste enthält foo und bar, wobei jede Zeile aus foo und bar zusammengefasst wird
+5. die Datei enthält beide Listen nacheinander
