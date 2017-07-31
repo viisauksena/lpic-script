@@ -36,7 +36,7 @@ wobei gefolgt von der Frage in Zeile 2 in mehreren Zeilen nummerierte Antworten 
 Die maximale Anzahl hier sind 6 Möglichkeiten. In diesem Fall muss eine Zeile mit 1. beginnen.
 
 in der Datei highscore werden neben Datum und Uhrzeit noch die jeweils Richtigen / Unrichtigen Antworten archiviert mit den damals "falschen" Antworten, demnach könnte man nach vielen Durchläufen beispielsweise daraus seine schwächen schnell erkennen, bspw.
-    $ cat highscore |cut -d " " -f 4- |grep -Eo [a-z0-9]+ | sort | uniq -c
+    $ cat highscore |grep 101 | cut -d " " -f 4- |grep -Eo [a-z0-9]+ | sort | uniq -c
 
 zur vereinfachung gibt es ein script Namens `result`
 

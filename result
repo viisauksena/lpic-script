@@ -3,9 +3,14 @@
 # todo make many results and stats out of highscore
 touch highscore
 
-echo ""
-cat highscore |cut -d " " -f 4- |grep -Eo [a-z0-9]+ | sort | uniq -c
+folder=$1
+[ x"$1" = "x" ] && folder=101
 
 echo ""
-echo "if empty , you may probably have never made an error"
+cat highscore |grep $folder|cut -d " " -f 5- |grep -Eo [a-z0-9]+ | sort | uniq -c
+
 echo ""
+echo "if empty , you may probably have never made an error in $folder Tests,"
+echo "you may run $0 with 101 or 202 as argument to get specific results"
+echo ""
+# since the result printout wrong questions we only check specific tests
