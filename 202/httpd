@@ -6,8 +6,6 @@ Select the TWO correct statements about the following excerpt from httpd.conf:
 <Files private.html>Order allow, deny
 Deny from all
 </Files>
-Real 2
-LPI 117-202 Exam
 </Directory>
 
 1. The configuration will deny access to /var/www/dir1/private.html, /var/www/dirl/subdir2/private.html, /var/www/dirl/subdir3/private.html and any other instance of
