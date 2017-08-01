@@ -54,18 +54,12 @@ yippieh=0
 
 # check if help, legal or rnd number of question is wanted
 rnd=1000
-#if [[ $1 -eq "h" ]]; then
-#	options
-#	exit 0
-#fi
+
 [ x$1 = "xl" ] && cat ./legal && exit 0
-[ x$1 = xh ] 		&& options && exit 99
+[ x$1 = "xh" ] 		&& options && exit 99
 [ x$1 = "x-h" ] 	&& options && exit 99
 [ x$1 = "x--help" ] 	&& options && exit 99
 if [[ "$1" = +([0-9]) ]]; then rnd=$1; shift ; fi
-
-echo $1 dollar1
-
 
 # collect number of questions from arguments,
 # or take all from questionsfolder
@@ -74,7 +68,6 @@ if [ $# != 0 ] ; then
 else
 	listall=$(shuf -e $(ls $folder)|head -n $rnd)
 fi
-
 
 # get all files from previous generated list
 for file in $listall; do
@@ -130,7 +123,6 @@ for file in $listall; do
 		#		echo correct $correct and 1-6 $a1$a2$a3$a4$a5$a6
 	done
 
-	
 which xcowsay 1>/dev/null 2>/dev/null && xcowsay "you got $yippieh right an $ohno wrong" || echo you may want to install xcowsay &
 
 # some simple highscore
